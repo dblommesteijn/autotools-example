@@ -1,4 +1,4 @@
-#include "../include/toollib.h"
+#include <toollib.h>
 
 #include <iostream>
 using namespace std;
