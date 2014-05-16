@@ -56,6 +56,11 @@ clang++ main.o -o main -lautotools
 ./main
 ```
 
+## Removing Clutter
 
+```bash
+make maintainer-clean
+sudo sh cleanup.sh
+```
 
 

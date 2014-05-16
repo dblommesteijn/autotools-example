@@ -1,6 +1,7 @@
 
 AC_PREREQ([2.61])
 AC_INIT([autotools_example], [0.1], [dennis@blommesteijn.com])
+AC_CONFIG_AUX_DIR(aux-dist)
 AM_INIT_AUTOMAKE
 
 AC_PROG_MAKE_SET
