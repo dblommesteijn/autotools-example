@@ -38,6 +38,8 @@ Including the created library with your project.
 
 **C++ code snippet**
 
+*This example can be found in `example/`.*
+
 ```cpp
 #include <toollib.h>
 int main(int args, char** argv) {
@@ -58,9 +60,15 @@ clang++ main.o -o main -lautotools
 
 ## Removing Clutter
 
+You have to become root to cleanup, because `sudo make install` generates `src/.libs/*`.
+
 ```bash
-make maintainer-clean
 sudo sh cleanup.sh
 ```
 
+## Uninstalling Library
+
+```bash
+sudo make uninstall
+```
 
