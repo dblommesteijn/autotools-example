@@ -32,7 +32,9 @@ sudo make install
 
 ## Using Lib
 
-Including the created library with your project.
+Including the created library with your project. 
+
+*NOTE: you have to install the library before headers can be found, and linking can be done*
 
 **C++ code snippet**
 
@@ -46,9 +48,11 @@ int main(int args, char** argv) {
 
 **Compile with clang**
 
+Assuming the library is installed at the OS default location, otherwise you have to provide flags -I and -L accordingly.
+
 ```bash
-clang++ -Wall -std=c++11 -gdwarf-2 -fPIC -I/usr/local/include -c main.cpp
-clang++ -L/usr/local/lib main.o -o main -lautotools
+clang++ -Wall -std=c++11 -O3 -fPIC -c main.cpp
+clang++ main.o -o main -lautotools
 ./main
 ```
 
