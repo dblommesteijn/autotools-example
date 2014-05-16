@@ -1,0 +1,18 @@
+
+AC_PREREQ([2.61])
+AC_INIT([autotools_example], [0.1], [dennis@blommesteijn.com])
+AM_INIT_AUTOMAKE
+
+AC_PROG_MAKE_SET
+AC_PROG_CXX
+AC_LANG(C++)
+
+CFLAGS="-std=c++11 -fPIC"
+
+LT_PREREQ([2.2])
+LT_INIT([dlopen shared])
+
+AC_CONFIG_FILES([Makefile include/Makefile src/Makefile])
+
+AC_OUTPUT
+
