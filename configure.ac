@@ -8,7 +8,7 @@ AC_PROG_MAKE_SET
 AC_PROG_CXX
 AC_LANG(C++)
 
-CFLAGS="-std=c++11 -fPIC"
+CXXFLAGS="-std=c++11 -fPIC"
 
 AC_CONFIG_MACRO_DIR([m4])
 
