@@ -1,1 +1,3 @@
-include_HEADERS = toollib.h
+include_HEADERS = toollib.h 
+otherincludedir = $(includedir)/toollib
+otherinclude_HEADERS = toollib/print.h

@@ -44,4 +44,4 @@ src/Makefile
 include/Makefile
 
 .deps
-test/main
+example/main

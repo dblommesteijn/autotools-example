@@ -7,6 +7,7 @@
 
 int main(int args, char** argv)
 {
+	print("lalalalala");
 	toollib("I'm using toollib!!");	
 	return 0;
 }

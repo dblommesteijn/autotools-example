@@ -16,7 +16,11 @@ rm -rf src/.deps
 rm -rf src/.libs
 rm -f src/*.lo
 rm -f src/*.la
-
+rm -rf src/libtool
+rm -rf src/toollib/.deps
+rm -f src/toollib/.dirstamp
+rm -f src/toollib/*.lo
+rm -f src/toollib/*.la
 # files
 if [ -f include/Makefile ]; then
 	rm include/Makefile
