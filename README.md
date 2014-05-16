@@ -1,8 +1,6 @@
-autotools-example
-=================
+# Autotools Example
 
-Example how to use autoconf and automake
-
+This repo contains a sample project with the Makefile.am and configure.ac files with content to construct a shared and static library for C++ (Linux and OSX).
 
 
 ## Installation
@@ -25,7 +23,7 @@ autoreconf -vfi
 
 **Compiling/ Linking**
 
-Compile and install the library to the `/usr/local/lib` defaults
+Compile and install the library to the OS defaults (`/usr/local/lib` and `/usr/local/include`)
 
 ```bash
 sudo make install
