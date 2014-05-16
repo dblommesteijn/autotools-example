@@ -9,6 +9,8 @@ AC_LANG(C++)
 
 CFLAGS="-std=c++11 -fPIC"
 
+AC_CONFIG_MACRO_DIR([m4])
+
 LT_PREREQ([2.2])
 LT_INIT([dlopen shared])
 
