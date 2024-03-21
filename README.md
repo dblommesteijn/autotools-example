@@ -2,6 +2,13 @@
 
 This repo contains a sample project with the Makefile.am and configure.ac files with content to construct a shared and static library for C++ (Linux and OSX).
 
+## Prerequisites
+
+**OSX:**
+```bash
+brew install automake autoconf libtool
+```
+
 
 ## Installation
 
